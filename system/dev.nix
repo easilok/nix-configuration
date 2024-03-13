@@ -1,10 +1,11 @@
-{ config, lib, pkgs, ... }: {
+{
+  config,
+  lib,
+  pkgs,
+  ...
+}: {
   # Install some packages
-  environment.systemPackages = 
-   	with pkgs; 
-         [
-		gcc
-         ]; 
+  environment.systemPackages = with pkgs; [
+    gcc
+  ];
 }
-
-

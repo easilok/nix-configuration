@@ -1,7 +1,10 @@
-{ config, lib, pkgs, ... }: {
-    imports = [
-	./nixos.nix
-    ];
+{
+  config,
+  lib,
+  pkgs,
+  ...
+}: {
+  imports = [
+    ./nixos.nix
+  ];
 }
-
-
